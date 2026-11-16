@@ -43,7 +43,7 @@ Encontrou um erro, uma frase cortada ou algo em inglês fora desta lista? Abra u
 ## Do que você precisa
 
 1. A ISO **americana** do jogo: **Digimon World Data Squad (USA)**, código **SLUS-21598**.
-2. O patch: `Digimon World - Data Squad PT-BR v0.9.xdelta` (veja em *Releases*).
+2. O patch: `Digimon.World.-.Data.Squad.PT-BR.v0.9.xdelta` (veja em *Releases*).
 3. Um programa que aplique patches xdelta (opções abaixo).
 
 ### Confira se a sua ISO é a certa
@@ -84,7 +84,7 @@ Se o hash não bater, a ISO é de outra versão (europeia, japonesa) ou foi alte
 Baixe o `xdelta3` (*jmacd/xdelta-gpl* no GitHub, ou pelo gerenciador de pacotes do Linux/macOS) e rode:
 
 ```
-xdelta3 -d -s "Digimon World - Data Squad.iso" "Digimon World - Data Squad PT-BR v0.9.xdelta" "Digimon World - Data Squad (PTBR).iso"
+xdelta3 -d -s "Digimon World - Data Squad.iso" "Digimon.World.-.Data.Squad.PT-BR.v0.9.xdelta" "Digimon World - Data Squad (PTBR).iso"
 ```
 
 Assim a ISO original fica intacta e sai um arquivo novo, já traduzido.
